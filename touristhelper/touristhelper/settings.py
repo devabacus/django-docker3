@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['95.140.157.196','127.0.0.1','localhost']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'touristapp',
 ]
 
 MIDDLEWARE = [
